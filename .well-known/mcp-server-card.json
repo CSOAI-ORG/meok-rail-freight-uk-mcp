@@ -1,0 +1,34 @@
+{
+  "name": "meok-rail-freight-uk-mcp",
+  "title": "Meok Rail Freight Uk Mcp",
+  "description": "UK rail freight compliance \u2014 ORR licensing, ROGS safety certificate, Railway Interoperability Regulations 2011, TSI LOC&PAS/WAG, RID dangerous goods, ORR 14 Major Issues inspection prep, Network Rail capacity access. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_orr_licence_compliance"
+    },
+    {
+      "name": "check_railway_interoperability_directive"
+    },
+    {
+      "name": "check_tsi_loc_pas_freight"
+    },
+    {
+      "name": "check_rsl_safety_certificate"
+    },
+    {
+      "name": "check_dgsa_rail_class7_class1"
+    },
+    {
+      "name": "prepare_orr_inspection_pack"
+    },
+    {
+      "name": "check_network_rail_capacity_access"
+    }
+  ]
+}

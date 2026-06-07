@@ -1,0 +1,23 @@
+# meok-rail-freight-uk-mcp
+
+> UK rail freight compliance — ORR licensing, ROGS safety certificate, Railway Interoperability Regulations 2011, TSI LOC&PAS/WAG, RID dangerous goods, ORR 14 Major Issues inspection prep, Network Rail capacity access. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_orr_licence_compliance
+- check_railway_interoperability_directive
+- check_tsi_loc_pas_freight
+- check_rsl_safety_certificate
+- check_dgsa_rail_class7_class1
+- prepare_orr_inspection_pack
+- check_network_rail_capacity_access
+
+## Install
+```
+pip install meok-rail-freight-uk-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-rail-freight-uk-mcp/
+- Docs: https://meok.ai

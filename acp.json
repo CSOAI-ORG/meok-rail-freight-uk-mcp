@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-rail-freight-uk-mcp",
+    "description": "UK rail freight compliance \u2014 ORR licensing, ROGS safety certificate, Railway Interoperability",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-rail-freight-uk-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_orr_licence_compliance",
+      "check_railway_interoperability_directive",
+      "check_tsi_loc_pas_freight",
+      "check_rsl_safety_certificate",
+      "check_dgsa_rail_class7_class1",
+      "prepare_orr_inspection_pack",
+      "check_network_rail_capacity_access"
+    ]
+  }
+}

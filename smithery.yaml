@@ -1,0 +1,32 @@
+name: meok-rail-freight-uk-mcp
+description: 'UK rail freight compliance — ORR licensing, ROGS safety certificate, Railway Interoperability'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-rail-freight-uk-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_orr_licence_compliance
+  description: check orr licence compliance
+- name: check_railway_interoperability_directive
+  description: check railway interoperability directive
+- name: check_tsi_loc_pas_freight
+  description: check tsi loc pas freight
+- name: check_rsl_safety_certificate
+  description: check rsl safety certificate
+- name: check_dgsa_rail_class7_class1
+  description: check dgsa rail class7 class1
+- name: prepare_orr_inspection_pack
+  description: prepare orr inspection pack
+- name: check_network_rail_capacity_access
+  description: check network rail capacity access
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

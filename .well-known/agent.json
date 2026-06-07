@@ -1,0 +1,86 @@
+{
+  "name": "meok-rail-freight-uk-mcp",
+  "description": "UK rail freight compliance \u2014 ORR licensing, ROGS safety certificate, Railway Interoperability",
+  "url": "https://proofof.ai/scorecard/meok-rail-freight-uk-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_orr_licence_compliance",
+      "name": "Check Orr Licence Compliance",
+      "description": "check_orr_licence_compliance via meok-rail-freight-uk-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_railway_interoperability_directive",
+      "name": "Check Railway Interoperability Directive",
+      "description": "check_railway_interoperability_directive via meok-rail-freight-uk-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_tsi_loc_pas_freight",
+      "name": "Check Tsi Loc Pas Freight",
+      "description": "check_tsi_loc_pas_freight via meok-rail-freight-uk-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_rsl_safety_certificate",
+      "name": "Check Rsl Safety Certificate",
+      "description": "check_rsl_safety_certificate via meok-rail-freight-uk-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_dgsa_rail_class7_class1",
+      "name": "Check Dgsa Rail Class7 Class1",
+      "description": "check_dgsa_rail_class7_class1 via meok-rail-freight-uk-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_orr_inspection_pack",
+      "name": "Prepare Orr Inspection Pack",
+      "description": "prepare_orr_inspection_pack via meok-rail-freight-uk-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_network_rail_capacity_access",
+      "name": "Check Network Rail Capacity Access",
+      "description": "check_network_rail_capacity_access via meok-rail-freight-uk-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
