@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-rail-freight-uk-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-rail-freight-uk-mcp"
+      ]
+    }
+  }
+}
