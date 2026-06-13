@@ -1,0 +1,144 @@
+{
+  "name": "Meok Rail Freight Uk Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-rail-freight-uk-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK rail freight compliance — ORR licensing, ROGS safety certificate, Railway Interoperability Regulations 2011, TSI LOC&PAS/WAG, RID dangerous goods, ORR 14 Major Issues inspection prep, Network Rail capacity access. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_orr_licence_compliance",
+      "name": "Check Orr Licence Compliance",
+      "description": "Check Orr Licence Compliance — a tool of the meok-rail-freight-uk-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_railway_interoperability_directive",
+      "name": "Check Railway Interoperability Directive",
+      "description": "Check Railway Interoperability Directive — a tool of the meok-rail-freight-uk-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_tsi_loc_pas_freight",
+      "name": "Check Tsi Loc Pas Freight",
+      "description": "Check Tsi Loc Pas Freight — a tool of the meok-rail-freight-uk-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_rsl_safety_certificate",
+      "name": "Check Rsl Safety Certificate",
+      "description": "Check Rsl Safety Certificate — a tool of the meok-rail-freight-uk-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_dgsa_rail_class7_class1",
+      "name": "Check Dgsa Rail Class7 Class1",
+      "description": "Check Dgsa Rail Class7 Class1 — a tool of the meok-rail-freight-uk-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_orr_inspection_pack",
+      "name": "Prepare Orr Inspection Pack",
+      "description": "Prepare Orr Inspection Pack — a tool of the meok-rail-freight-uk-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_network_rail_capacity_access",
+      "name": "Check Network Rail Capacity Access",
+      "description": "Check Network Rail Capacity Access — a tool of the meok-rail-freight-uk-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-rail-freight-uk-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
